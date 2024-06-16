@@ -1,0 +1,36 @@
+body{
+    background-image: url('background_image.png');
+}
+summary {
+    background-color: antiquewhite;
+    margin: 5px;
+
+}
+
+div{
+    display: flex;
+    margin: 20px;
+    overflow: auto;
+    justify-content: space-between;
+
+}
+
+a:link ,a:visited {
+    background-color: yellow;
+    padding: 10px;
+    text-decoration: none;
+}
+a:hover, a:active{
+    background-color: aqua;
+}
+
+h1 {
+font-family:serif;
+padding: 13px;
+text-align: center; 
+text-transform: uppercase;
+background-color: black;
+color: white;
+text-shadow: 2px 3px 4px rgb(8, 159, 247);
+text-decoration: underline;
+}
