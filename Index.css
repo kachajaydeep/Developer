@@ -10,15 +10,24 @@ summary {
 div{
     display: flex;
     margin: 20px;
-    overflow: auto;
     justify-content: space-between;
 
+}
+@media screen and (max-width:997px) {
+    div{
+        display: grid;
+    }
+
+    a{
+        border-bottom: 1px solid black;
+    }
 }
 
 a:link ,a:visited {
     background-color: yellow;
     padding: 10px;
     text-decoration: none;
+    
 }
 a:hover, a:active{
     background-color: aqua;
