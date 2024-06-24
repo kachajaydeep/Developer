@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     background-image: url('background_image.png');
 }
 summary {
@@ -35,7 +36,7 @@ a:hover, a:active{
 
 h1 {
 font-family:serif;
-padding: 13px;
+padding: 20px;
 text-align: center; 
 text-transform: uppercase;
 background-color: black;
